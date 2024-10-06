@@ -234,7 +234,7 @@ let startTime, endTime;
 let shuffledQuestions = [];
 let totalQuestions = 0;
 let timer;
-const timePerQuestion = 60; // عدد الثواني المخصصة لكل سؤال
+const timePerQuestion = 120; // عدد الثواني المخصصة لكل سؤال
 let timeLeft = timePerQuestion;
 
 function shuffle(array) {
